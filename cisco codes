@@ -1,0 +1,11 @@
+enable
+configure terminal
+hostname ______
+enable secret cisco
+line vty 0 15
+password class
+login
+exit
+banner motd #Authorized access only!#
+exit
+write memory
